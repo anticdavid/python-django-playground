@@ -8,7 +8,7 @@ email_password = "password" #your App password
 email_receiver = "kahil75345@buzblox.com"
 
 subject = "Email sent by Python program"
-body = "You receive email from a Python program"
+body = "You received email from a Python program"
 
 em = EmailMessage()
 em["From"] = email_sender
