@@ -1,5 +1,6 @@
 import qrcode
 
+#Method generates a QR code for the given text and saves it as a PNG image.
 def generate_qrcode(text):
     qr = qrcode.QRCode(
         version = 1,
